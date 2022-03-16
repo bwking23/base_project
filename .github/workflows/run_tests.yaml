@@ -1,5 +1,5 @@
 # .github/workflows/app.yaml
-name: test
+name: Run PyTest
 on: [push]
 
 jobs:
