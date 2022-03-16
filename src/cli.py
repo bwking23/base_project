@@ -5,6 +5,7 @@ from string_addition import string_addition
 cli_app = typer.Typer()
 
 
+
 @cli_app.command()
 def string_add(value: str):
     string_value = string_addition(value)
