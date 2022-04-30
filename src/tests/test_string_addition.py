@@ -5,7 +5,7 @@ from src.string_addition import string_addition
 
 class TestStringAddition:
     def test_addition_success(self):
-        assert string_addition("test") == 448
+        assert string_addition("test") == 44
         assert string_addition("long string to add") == 1715
         assert string_addition("abc") == 24
 
